@@ -45,4 +45,26 @@ let a = 10
 let b = 20
 console.log(`sum of ${a} + ${b} = ${a + b}`);
 
+let password = "Secret";
+console.log(password.length);
 
+if(password > 8){
+    console.log("Valid")
+}
+else{
+    alert("Invalid pasasword")
+}
+
+
+let user = "Kalam"
+
+user.toUpperCase(user)
+console.log(user);
+
+let result = user.toUpperCase();//dtoring in a different variable
+
+console.log(result);
+
+let user2 = "kalam";
+user2 = user2.toUpperCase();//Storing in the same variable
+console.log("user2 is ",user2)
