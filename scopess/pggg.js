@@ -1,4 +1,5 @@
-// // Global scope
+// Global scope
+
 
 // let a = 10;
 // var b = 20;
@@ -21,7 +22,7 @@
 //   console.log("inside block", c);
 // }
 
-// // function scope
+// function scope
 
 // function f1(){
 //     var aa = 10;
@@ -38,15 +39,15 @@
 
 // Block scope
 
-if (true) {
-  var bbb = 20;
-  let aaa = 10;
-  const ccc = 30;
-  console.log("Inside bloc", aaa);
-  console.log("Inside block", bbb);
-  console.log("Inside block", ccc);
-}
-console.log("Outside block", bbb);
-console.log("Outside block", ccc);
-console.log("Outside block", aaa);
+// if (true) {
+//   var bbb = 20;
+//   let aaa = 10;
+//   const ccc = 30;
+//   console.log("Inside bloc", aaa);
+//   console.log("Inside block", bbb);
+//   console.log("Inside block", ccc);
+// }
+// console.log("Outside block", bbb);
+// console.log("Outside block", ccc);
+// console.log("Outside block", aaa);
 // the variables declared using the 'var' can only be accessed outside the block , if the variables are declared using 'const' or 'let' those cannot be used outside block.
