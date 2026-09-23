@@ -68,3 +68,11 @@ console.log(result);
 let user2 = "kalam";
 user2 = user2.toUpperCase();//Storing in the same variable
 console.log("user2 is ",user2)
+
+//trimming / removing spaces from string
+
+let student = "    basil    ";
+
+console.log(student.length);
+student = student.trim();
+console.log(student.length);
