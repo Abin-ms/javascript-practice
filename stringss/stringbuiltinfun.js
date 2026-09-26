@@ -29,3 +29,24 @@ console.log(res);
 console.log(res2);
 console.log(res3);
 
+
+//number hiding using padStart() and padEnd()
+
+let contact = "9879";
+let notification = contact.padStart(10,"X");
+console.log("OTP sent to your mobile number ends with",notification);
+
+let number = "9873";
+let not2 = number.padEnd(10 , "X");
+console.log("the otp sent to yout number",not2);
+
+
+//concat()
+
+let first = "Hello";
+let second = "World";
+let newString = first.concat(" ",second)
+console.log(newString)
+
+
+

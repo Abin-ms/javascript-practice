@@ -99,3 +99,6 @@ function company(){
 }
 company()
 console.log(companyname2);
+
+
+
