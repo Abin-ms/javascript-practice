@@ -78,14 +78,27 @@
 
 //map() example
 
-let users = ["Basil","Vasudev","Anugraha","Aswathi"];
-let ress = users.map((ele) => {
-    return ele.toUpperCase();
+// let users = ["Basil","Vasudev","Anugraha","Aswathi"];
+// let ress = users.map((ele) => {
+//     return ele.toUpperCase();
     
+// })
+// let ress2 = users.map((ele) => {
+//     return ele.toLowerCase()
+// })
+// console.log("Original array",users)
+// console.log(ress)
+// console.log(ress2)
+
+
+let salary = [3000 , 10000 , 30000 , 45000 , 75000];
+let ress = salary.filter((ele) => {
+    return ele > 5000;
 })
-let ress2 = users.map((ele) => {
-    return ele.toLowerCase()
-})
-console.log("Original array",users)
 console.log(ress)
-console.log(ress2)
+
+let names = ["Rose","Anugraha","Aswathi"];
+let re3 = names.filter((ele) => {
+    return ele.startsWith("R");
+})
+console.log(re3);
