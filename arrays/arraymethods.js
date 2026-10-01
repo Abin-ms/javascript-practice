@@ -102,3 +102,10 @@ let re3 = names.filter((ele) => {
     return ele.startsWith("R");
 })
 console.log(re3);
+
+//find() - gives only the first matching element
+let sal = [1000,2000,3000,4000,5000];
+let sr = sal.find((ele) => {
+    return ele > 3000;
+})
+console.log(sr)
