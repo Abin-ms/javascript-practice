@@ -91,21 +91,52 @@
 // console.log(ress2)
 
 
-let salary = [3000 , 10000 , 30000 , 45000 , 75000];
-let ress = salary.filter((ele) => {
-    return ele > 5000;
-})
-console.log(ress)
+// let salary = [3000 , 10000 , 30000 , 45000 , 75000];
+// let ress = salary.filter((ele) => {
+//     return ele > 5000;
+// })
+// console.log(ress)
 
-let names = ["Rose","Anugraha","Aswathi"];
-let re3 = names.filter((ele) => {
-    return ele.startsWith("R");
-})
-console.log(re3);
+// let names = ["Rose","Anugraha","Aswathi"];
+// let re3 = names.filter((ele) => {
+//     return ele.startsWith("R");
+// })
+// console.log(re3);
 
-//find() - gives only the first matching element
-let sal = [1000,2000,3000,4000,5000];
-let sr = sal.find((ele) => {
-    return ele > 3000;
-})
-console.log(sr)
+// //find() - gives only the first matching element
+// let sal = [1000,2000,3000,4000,5000];
+// let sr = sal.find((ele) => {
+//     return ele > 3000;
+// })
+// console.log(sr)
+
+
+
+//Strig to array
+
+// let date = "25-09-26";
+// let a2 = date.split("-");
+// console.log(a2);
+
+// let email = "abinnnmss@gmail.com";
+// let b = email.split("@");
+// console.log(b);
+
+// let user = "Venkat";
+// let c = user.split("@");
+// console.log(b);
+
+// let user2 = "Venkat";
+// let ccc = user2.split(" ");
+// let dd = user2.split("  ");
+// console.log(ccc);
+// console.log(dd)
+
+
+//array to string
+let names = ["Liya","Anagha","Anugraha","Janani"];
+console.log(names);
+let result = names.join("--");
+console.log(result);
+
+console.log(names.includes("Liya"));    
