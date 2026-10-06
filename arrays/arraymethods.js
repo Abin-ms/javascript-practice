@@ -134,9 +134,21 @@
 
 
 //array to string
-let names = ["Liya","Anagha","Anugraha","Janani"];
-console.log(names);
-let result = names.join("--");
-console.log(result);
+// let names = ["Liya","Anagha","Anugraha","Janani"];
+// console.log(names);
+// let result = names.join("--");
+// console.log(result);
 
-console.log(names.includes("Liya"));    
+// console.log(names.includes("Liya"));    
+
+
+// map() method example
+
+let user = ["Parvathy","Meenakshi","Liya","Rose"];
+let result = user.map((ele,ind) => {
+    // console.log("Element:",ele);
+    // console.log("index :",ind);
+    return ele
+})
+
+console.log(result)
