@@ -127,23 +127,77 @@
 // console.log(order.deliveryAddress.city);
 
 
-let vimalJyothiVictim = {
-    victim : "Rose",
-    vId : 101
+// let vimalJyothiVictim = {
+//     victim : "Rose",
+//     vId : 101
+// }
+
+// console.log("Details of victim :",vimalJyothiVictim);
+// console.log(vimalJyothiVictim.vId);
+// console.log(vimalJyothiVictim["vId"]);
+
+// vimalJyothiVictim.collage = "Vimaljyothi";
+// console.log(vimalJyothiVictim);
+
+// vimalJyothiVictim.vId = 301;
+// console.log(vimalJyothiVictim);
+
+// delete vimalJyothiVictim.collage;
+// console.log(vimalJyothiVictim);
+
+// vimalJyothiVictim = null;
+// console.log(vimalJyothiVictim);
+
+// let product = {
+//     item : "Mobile",
+//     price : 75000
+// }
+// console.log("Before seal : ",product);
+
+// Object.seal(product)
+
+
+// product.brand = "Samsung galaxy";
+// console.log(product);// we cannot add a property after sealing
+
+// delete product.price;
+// console.log(product);// we cannot delete a property after sealing
+
+// product.price = 80000;
+// console.log(product);
+
+// let prodcut = {
+//     item : "Mobile",
+//     price : 75000
+// }
+// console.log("Before freeze",prodcut);
+// Object.freeze(prodcut);
+
+// product.brand = "Samsung galaxy";
+// console.log(product);
+
+// product.price = 80000;
+// console.log(product);
+
+// delete product.price;
+// console.log(product);
+
+
+let product = {
+    item : "Mobile",
+    price : 75000,
+    color : "Black",
+    brand : "Samsung",
+    battery : "6000mAh"
 }
 
-console.log("Details of victim :",vimalJyothiVictim);
-console.log(vimalJyothiVictim.vId);
-console.log(vimalJyothiVictim["vId"]);
+console.log(product.keys);
+console.log(Object.keys(product));
+console.log(Object.values(product));
+console.log(Object.entries(product))
 
-vimalJyothiVictim.collage = "Vimaljyothi";
-console.log(vimalJyothiVictim);
 
-vimalJyothiVictim.vId = 301;
-console.log(vimalJyothiVictim);
 
-delete vimalJyothiVictim.collage;
-console.log(vimalJyothiVictim);
 
-vimalJyothiVictim = null;
-console.log(vimalJyothiVictim);
+
+
