@@ -206,23 +206,43 @@
 //     console.log(a);
 // }
 
-    
+
 //for of() - this method is used to fetch keys from the object.
-let obb = {
-    name :"Abin",
-    age : 21,
-    place : "Alappuzha"
-}
-for(let x in obb){
-    console.log(x);
-}
+// let obb = {
+//     name :"Abin",
+//     age : 21,
+//     place : "Alappuzha"
+// }
+// for(let x in obb){
+//     console.log(x);
+// }
+
+
 // fetching values of the properties using "for in()".
-for(let y in obb){
-    console.log(obb[y]);
-}
+// for(let y in obb){
+//     console.log(obb[y]);
+// }
 
 
 
+//example -1 
+// let noise = {
+//     name : "firstRowFirstboy",
+//     id : 101,
+//     course : "Javascript"
+// }
+
+// for(let n in noise){
+//     // console.log(n);
+//     // console.log(noise[n])
+//     console.log("Properties :",noise[n]);
+
+// }
 
 
-
+let pricess = [20,40,60,70];
+let res = pricess.map((ele,ind,arr) => {
+    console.log(ele);
+    return ele;
+})
+console.log(res);
