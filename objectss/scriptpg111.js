@@ -183,18 +183,43 @@
 // console.log(product);
 
 
-let product = {
-    item : "Mobile",
-    price : 75000,
-    color : "Black",
-    brand : "Samsung",
-    battery : "6000mAh"
-}
+// let product = {
+//     item : "Mobile",
+//     price : 75000,
+//     color : "Black",
+//     brand : "Samsung",
+//     battery : "6000mAh"
+// }
 
-console.log(product.keys);
-console.log(Object.keys(product));
-console.log(Object.values(product));
-console.log(Object.entries(product))
+// console.log(product.keys);
+// console.log(Object.keys(product));
+// console.log(Object.values(product));
+// console.log(Object.entries(product))
+
+
+
+
+//for of() example - this method is an arrray method used to fetch each values from the array.
+
+// let arr = ["AA","BB","CC","DD"];
+// for(let a of arr){
+//     console.log(a);
+// }
+
+    
+//for of() - this method is used to fetch keys from the object.
+let obb = {
+    name :"Abin",
+    age : 21,
+    place : "Alappuzha"
+}
+for(let x in obb){
+    console.log(x);
+}
+// fetching values of the properties using "for in()".
+for(let y in obb){
+    console.log(obb[y]);
+}
 
 
 
