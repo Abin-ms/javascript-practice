@@ -240,9 +240,161 @@
 // }
 
 
-let pricess = [20,40,60,70];
-let res = pricess.map((ele,ind,arr) => {
-    console.log(ele);
-    return ele;
-})
+// let pricess = [20,40,60,70];
+// let res = pricess.map((ele,ind,arr) => {
+//     console.log(ele);
+//     return ele;
+// })
+// console.log(res);
+
+// let ob = [{
+//     name : "aa",
+//     id : 101
+// },
+// {
+//     name : "bb",
+//     id : 102
+// },
+// {
+//     name : "cc",
+//     id : 103
+// },
+// {
+//     name : "dd",
+//     id : 104
+// }]
+
+// let res = ob.map((ele) => {
+//     // console.log(ele);
+//     // console.log(ele.name);
+//     // console.log(ele.id);
+//     return ele.name;
+// })
+
+// let res2 = ob.map((ele) => {
+//     return ele.id;
+// })
+
+// console.log(res);
+// console.log(res2);
+
+// let data2 = [{
+//     item:"Mobile",
+//     price : 50000,
+//     details : {
+//         brand : "samsung",
+//         color : "blye"
+//     }
+// },{item:"Laptop",
+//         price : 90000,
+//         details : {
+//             brand :"HP",
+//             color : "Grey"
+//         }},{
+//             item : "Keyboard",
+//         price : 800,
+//         details : {
+//             brand :"KREO",
+//             color : "blue"
+//         }
+//         }]
+
+
+
+// data2.map((ele) => {
+//     console.log(ele);
+//     console.log(ele.details.color);
+//     console.log(ele.details.brand);
+//     console.log(ele.price);
+// })
+
+
+// let users = [ {name:"Aparna", Hobbies:["Comming","Struggling","Going"],course :"Python"},
+// {name:"AAAA", Hobbies:["Comming","Struggl","Going"],course : "Java"},
+// {name:"BBBB", Hobbies:["Comming","Strugglin","Going"],course : "java"}];
+
+// users.map((ele) => {
+//     console.log(ele.Hobbies[1]);
+// })
+
+// let res = users.map( (ele) => {
+//     return ele.Hobbies[1];
+// })
+// console.log(res);
+
+
+
+// let products = [
+//     {
+//     id :1,
+//     name : "Laptop",
+//     price : "50000",
+//     category :{
+//         name : "Electronics",
+//         department : "Computers"
+//     },
+//     reviews :[
+//         {user : "Ravi" , rating :5},
+//         {user : "Priye" , rating : 4}
+//     ]
+// },{
+//     id :1,
+//     name : "Laptop",
+//     price : "50000",
+//     category :{
+//         name : "Electronics",
+//         department : "Computers"
+//     },
+//     reviews :[
+//         {user : "Ravi" , rating :5},
+//         {user : "Priye" , rating : 4}
+//     ]
+// }]
+
+
+// let restaurants = [{
+//     name : "Spicy Kitche",
+//     location : {
+//         city : "Kochi",
+//         area : "Palarivattom"
+//     },
+//     menu : [{
+//         item : "Chicken Biriyani",
+//         price : "250",
+//         ingredients : ["Rice",""]
+//     },{}]
+// }, {} , {}]
+// products.map( (ele) => {
+//     console.log(ele.menu.chef.name);
+// })
+
+
+//use filter salary > 45000
+let employees = [{
+    employeeName : "Jhon Doe",
+    employeeId : 102,
+    salary : 35000
+} , {
+    employeeName : "Clark Kent",
+    employeeId : 103,
+    salary : 46600
+} , {
+    employeeName : "Martin",
+    employeeId : 104,
+    salary : 50000
+}];
+
+let res = employees.filter((ele) => {
+    return ele.salary > 45000;
+});
 console.log(res);
+
+let res2 = res.map((ele) => {
+    console.log(ele.employeeName);
+    console.log(ele.salary);
+    // return ele.employeeName;
+    // return ele.salary;
+})
+// console.log(res2)
+
+
