@@ -397,4 +397,10 @@ let res2 = res.map((ele) => {
 })
 // console.log(res2)
 
+// Desteucturing
+// keyword[var1 , var2 .....] = Arrayname;
+let names = ["AAA","BBB","CCC","DDD"];
+let[a,b,c,d] = names;
+console.log(b);
+
 
