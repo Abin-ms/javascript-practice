@@ -10,6 +10,8 @@
 // console.log(isMarried);
 // console.log(" ")
 
+
+
 // let student2 = "johan";
 // let age = 20;
 // let isMarried1 = true;
