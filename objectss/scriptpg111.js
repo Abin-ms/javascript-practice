@@ -370,37 +370,51 @@
 
 
 //use filter salary > 45000
-let employees = [{
-    employeeName : "Jhon Doe",
-    employeeId : 102,
-    salary : 35000
-} , {
-    employeeName : "Clark Kent",
-    employeeId : 103,
-    salary : 46600
-} , {
-    employeeName : "Martin",
-    employeeId : 104,
-    salary : 50000
-}];
+// let employees = [{
+//     employeeName : "Jhon Doe",
+//     employeeId : 102,
+//     salary : 35000
+// } , {
+//     employeeName : "Clark Kent",
+//     employeeId : 103,
+//     salary : 46600
+// } , {
+//     employeeName : "Martin",
+//     employeeId : 104,
+//     salary : 50000
+// }];
 
-let res = employees.filter((ele) => {
-    return ele.salary > 45000;
-});
-console.log(res);
+// let res = employees.filter((ele) => {
+//     return ele.salary > 45000;
+// });
+// console.log(res);
 
-let res2 = res.map((ele) => {
-    console.log(ele.employeeName);
-    console.log(ele.salary);
-    // return ele.employeeName;
-    // return ele.salary;
-})
-// console.log(res2)
+// let res2 = res.map((ele) => {
+//     console.log(ele.employeeName);
+//     console.log(ele.salary);
+//     // return ele.employeeName;
+//     // return ele.salary;
+// })
+// // console.log(res2)
 
-// Desteucturing
-// keyword[var1 , var2 .....] = Arrayname;
-let names = ["AAA","BBB","CCC","DDD"];
-let[a,b,c,d] = names;
-console.log(b);
+// // Desteucturing
+// // keyword[var1 , var2 .....] = Arrayname;
+// let names = ["AAA","BBB","CCC","DDD"];
+// let[a,b,c,d] = names;
+// console.log(b);
 
 
+//object destructuring example
+
+let user = {
+    actor : "Karthik",
+    city : "Kottayam",
+    noOfMovies : 0,
+    details : {
+        upComingMovie : undefined,
+        actress : "Anonymous",
+        skills : ["Calling","Story Telling"]
+    }
+}
+let {actor,city,noOfMovies,details:{upComingMovie,actress,skills:[a,b]}} = user;
+console.log(a);
